@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyAndroid</string>
+    <string name="no_network">Insanp requires an internet access. Please check your internet connection and try again.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="gravity_left">left</string>
+    <string name="gravity_center">center</string>
+    <string name="gravity_right">right</string>
+    <string name="place_holder">Placeholder Text</string>
+
+    <string name="content_authority">com.example.desy.myandroid</string>
+
+
+</resources>

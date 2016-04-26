@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:id="@+id/llBar"
+        android:background="@drawable/textview_round_corner">
+        <!--<View-->
+        <!--android:id="@+id/colorBlock"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:background="#FF5722" />-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:ellipsize="end"
+            android:textSize="13sp"
+            android:maxLines="1"
+            android:text="New Text"
+            android:textColor="@android:color/white"
+            android:id="@+id/tvItem" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:button="@drawable/profile_interest_checkbox"
+            android:id="@+id/cbProfile" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
